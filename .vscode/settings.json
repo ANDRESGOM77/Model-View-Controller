@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
+        "blogsdb",
+        "commentsdb",
         "exphbs",
         "resave",
         "sess"
