@@ -46,7 +46,6 @@ router.get("/blog/:id", withAuth, async (req, res) => {
     res.status(500).json(err);
   }
 });
-// Route to render dashboard page with all blogs by current user
 // Find all blogs by current user with associated usernames
 router.get("/dashboard", withAuth, async (req, res) => {
   try {
